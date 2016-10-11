@@ -58,6 +58,8 @@
         for (int i=0;i<[imgArr count];i++){
         
             UIImageView *imgV=[[UIImageView alloc]initWithFrame:CGRectMake(i*frame.size.width, 0, frame.size.width, frame.size.height)];
+            [imgV setBackgroundColor:[UIColor whiteColor]];
+            [imgV setContentMode:UIViewContentModeScaleAspectFit];
             if (isImgPick){
                 imgV.backgroundColor=[UIColor blackColor];
                 imgV.contentMode=UIViewContentModeScaleAspectFit;

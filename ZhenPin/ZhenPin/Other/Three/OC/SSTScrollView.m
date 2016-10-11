@@ -80,10 +80,10 @@ CGFloat bottomViewH=55;
             label.tag=50;
             label.text=[NSString stringWithFormat:@"1/%lu",(unsigned long)imgArr.count];
             label.textAlignment = NSTextAlignmentCenter;
-            label.backgroundColor=[UIColor colorWithWhite:0.95 alpha:1];
+            label.backgroundColor=[UIColor colorWithWhite:0.95 alpha:0.4];
             
             label.font=[UIFont systemFontOfSize:18];
-            label.textColor=[UIColor colorWithWhite:0.5 alpha:1];
+            label.textColor=[UIColor colorWithWhite:0.2 alpha:1];
             
             label.layer.cornerRadius=label.frame.size.width/2;
             label.layer.masksToBounds=true;
